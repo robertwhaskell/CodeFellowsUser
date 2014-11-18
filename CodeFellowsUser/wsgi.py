@@ -1,5 +1,5 @@
 """
-WSGI config for codefellowsthingie project.
+WSGI config for CodeFellowsUser project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
