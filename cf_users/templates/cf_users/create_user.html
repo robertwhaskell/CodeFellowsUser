@@ -1,0 +1,11 @@
+<h1>Create User</h1>
+{% if errors %}
+  <strong>{{errors}}</strong>
+{% endif %}
+<form action="{% url 'cf_users:results' %}" method="post">
+  {% csrf_token %}
+  <p>First Name: <input type="text" name="first"></p>
+  <p>Last Name: <input type="text" name="last"></p>
+  <p>Email: <input type="text" name="email"></p>
+  <input type="submit" value="Submit">
+</form>

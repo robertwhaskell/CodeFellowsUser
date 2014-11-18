@@ -1,0 +1,12 @@
+<a href="{% url 'cf_users:create_user' %}">Create new user</a>
+
+{% if user_list %}
+    <ul>
+    {% for user in user_list %}
+        <li><a href="{% url 'cf_users:detail' user.id %}">{{ user.first_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No users are available.</p>
+{% endif %}
+
