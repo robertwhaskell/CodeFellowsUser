@@ -1,5 +1,5 @@
 """
-Django settings for codefellowsthingie project.
+Django settings for CodeFellowsUser project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -49,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'codefellowsthingie.urls'
+ROOT_URLCONF = 'CodeFellowsUser.urls'
 
-WSGI_APPLICATION = 'codefellowsthingie.wsgi.application'
+WSGI_APPLICATION = 'CodeFellowsUser.wsgi.application'
 
 
 # Database
